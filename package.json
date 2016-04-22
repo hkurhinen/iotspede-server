@@ -1,0 +1,20 @@
+{
+  "name": "iotspede-server",
+  "version": "0.0.1",
+  "description": "Server to hold scores for the side event during futurehack.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Belvain",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "camo": "^0.12.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "nedb": "^1.8.0",
+    "serialport": "^2.1.0",
+    "socket.io": "^1.4.5"
+  }
+}
